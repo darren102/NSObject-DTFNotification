@@ -2,6 +2,7 @@
 //  NSObject+DTFNotification.m
 //
 //  Created by Darren Ferguson on 5/18/14.
+//  Email: darren102@gmail.com
 //
 
 #import "NSObject+DTFNotification.h"
@@ -10,7 +11,7 @@
 
 # pragma mark - Public instance methods (PUBLIC-INSTANCE)
 
-- (void)dtf_PostNotification:(NSString *)name
+- (void)dtf_PostNotification:(NSString*)name
 {
     [[self class] dtf_PostNotification:name object:nil userInfo:nil];
 }
@@ -27,7 +28,7 @@
 
 # pragma mark - Public class methods (PUBLIC-CLASS)
 
-+ (void)dtf_PostNotification:(NSString *)name
++ (void)dtf_PostNotification:(NSString*)name
 {
     [self dtf_PostNotification:name object:nil userInfo:nil];
 }

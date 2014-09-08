@@ -2,6 +2,7 @@
 //  NSObject+DTFNotification.h
 //
 //  Created by Darren Ferguson on 5/18/14.
+//  Email: darren102@gmail.com
 //
 
 @interface NSObject (DTFNotification)
